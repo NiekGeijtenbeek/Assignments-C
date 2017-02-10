@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Opdrachten" Database="" Version="10.0.0">
+  <Project Name="Assignment1_1" Path="Assignment11/Assignment11.project" Active="No"/>
+  <Project Name="Assignment1_2" Path="Opdracht12/Opdracht12.project" Active="No"/>
+  <Project Name="Assignment1_3" Path="Assignment1_3/Assignment1_3.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Assignment1_1" ConfigName="Debug"/>
+      <Project Name="Assignment1_2" ConfigName="Debug"/>
+      <Project Name="Assignment1_3" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Assignment1_1" ConfigName="Release"/>
+      <Project Name="Assignment1_2" ConfigName="Release"/>
+      <Project Name="Assignment1_3" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
