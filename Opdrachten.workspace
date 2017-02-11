@@ -3,6 +3,7 @@
   <Project Name="Assignment1_1" Path="Assignment11/Assignment11.project" Active="No"/>
   <Project Name="Assignment1_3_1" Path="Assignment1_3/Assignment1_3.project" Active="No"/>
   <Project Name="Assignment1_3_2" Path="Assignment1_3_2/Assignment1_3_2.project" Active="Yes"/>
+  <Project Name="Assignment1_2" Path="Assignment1_2/Assignment1_2.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -10,6 +11,7 @@
       <Project Name="Assignment1_2" ConfigName="Debug"/>
       <Project Name="Assignment1_3_1" ConfigName="Debug"/>
       <Project Name="Assignment1_3_2" ConfigName="Debug"/>
+      <Project Name="Assignment1_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -17,6 +19,7 @@
       <Project Name="Assignment1_2" ConfigName="Release"/>
       <Project Name="Assignment1_3_1" ConfigName="Release"/>
       <Project Name="Assignment1_3_2" ConfigName="Release"/>
+      <Project Name="Assignment1_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
