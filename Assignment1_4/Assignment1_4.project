@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Assignment1_3_2" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="Assignment1_4" Version="10.0.0" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,6 +93,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="simple_starprint_while.c"/>
+    <File Name="simple_table_calc.c"/>
   </VirtualDirectory>
 </CodeLite_Project>
