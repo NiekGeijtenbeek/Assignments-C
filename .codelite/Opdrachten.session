@@ -4,16 +4,16 @@
   <wxString Value="C:\Users\Niek\Documents\Opdrachten\Opdrachten.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Opdracht12\simple_checkchar.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="2" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_3\simple_starprint_for.c" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_3\simple_starprint_for.c" Name="FileName"/>
+      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_3_2\main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
+      <int Value="40" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

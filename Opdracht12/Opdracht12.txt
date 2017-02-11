@@ -1,1 +1,0 @@
-./Debug/simple_checkchar.c.o   

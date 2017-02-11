@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Opdracht13
+ProjectName            :=Assignment1_3_1
 ConfigurationName      :=Debug
 WorkspacePath          :=C:/Users/Niek/Documents/Opdrachten
-ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Opdracht13
+ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment1_3
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=07/02/2017
+Date                   :=11/02/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Opdracht13.txt"
+ObjectsFileList        :="Assignment1_3_1.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_starprint_for.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Opdracht13/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/simple_starprint_for.c$(ObjectSuffix): simple_starprint_for.c $(IntermediateDirectory)/simple_starprint_for.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_3/simple_starprint_for.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_starprint_for.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_starprint_for.c$(DependSuffix): simple_starprint_for.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_starprint_for.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_starprint_for.c$(DependSuffix) -MM simple_starprint_for.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/simple_starprint_for.c$(PreprocessSuffix): simple_starprint_for.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_starprint_for.c$(PreprocessSuffix) simple_starprint_for.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
