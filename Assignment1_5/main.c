@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
-int i;
-i = 
-
-
-printf("het ingevoerde getal is: %d\n", i);
+int main(void){
+	int i;
+	i = getchar()
+	printf("%d", i)
 }

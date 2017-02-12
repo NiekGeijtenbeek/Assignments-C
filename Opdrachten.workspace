@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Opdrachten" Database="" Version="10.0.0">
-  <Project Name="Assignment1_1" Path="Assignment11/Assignment11.project" Active="Yes"/>
   <Project Name="Assignment1_3_1" Path="Assignment1_3/Assignment1_3.project" Active="No"/>
   <Project Name="Assignment1_3_2" Path="Assignment1_3_2/Assignment1_3_2.project" Active="No"/>
-  <Project Name="Assignment1_2" Path="Assignment1_2/Assignment1_2.project" Active="No"/>
+  <Project Name="Assignment1_2" Path="Assignment1_2/Assignment1_2.project" Active="Yes"/>
   <Project Name="Assignment1_4" Path="Assignment1_4/Assignment1_4.project" Active="No"/>
   <Project Name="Assignment1_5" Path="Assignment1_5/Assignment1_5.project" Active="No"/>
   <BuildMatrix>
