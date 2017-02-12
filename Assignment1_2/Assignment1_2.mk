@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Assignment1_4
+ProjectName            :=Assignment1_2
 ConfigurationName      :=Debug
 WorkspacePath          :=C:/Users/Niek/Documents/Opdrachten
-ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment1_4
+ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment1_2
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment1_4.txt"
+ObjectsFileList        :="Assignment1_2.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/simple_table_calc.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_checkchar.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/simple_table_calc.c$(ObjectSuffix): simple_table_calc.c $(IntermediateDirectory)/simple_table_calc.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_4/simple_table_calc.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_table_calc.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/simple_table_calc.c$(DependSuffix): simple_table_calc.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_table_calc.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_table_calc.c$(DependSuffix) -MM simple_table_calc.c
+$(IntermediateDirectory)/simple_checkchar.c$(ObjectSuffix): simple_checkchar.c $(IntermediateDirectory)/simple_checkchar.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_2/simple_checkchar.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_checkchar.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_checkchar.c$(DependSuffix): simple_checkchar.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_checkchar.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_checkchar.c$(DependSuffix) -MM simple_checkchar.c
 
-$(IntermediateDirectory)/simple_table_calc.c$(PreprocessSuffix): simple_table_calc.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_table_calc.c$(PreprocessSuffix) simple_table_calc.c
+$(IntermediateDirectory)/simple_checkchar.c$(PreprocessSuffix): simple_checkchar.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_checkchar.c$(PreprocessSuffix) simple_checkchar.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
