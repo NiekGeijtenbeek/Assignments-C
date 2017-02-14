@@ -93,6 +93,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="main.c"/>
+    <File Name="simple_char_parse.c"/>
   </VirtualDirectory>
 </CodeLite_Project>

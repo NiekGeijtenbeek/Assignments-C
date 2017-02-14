@@ -5,13 +5,13 @@
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_4\simple_table_calc.c" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
-      <int Value="19" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_5\main.c" Name="FileName"/>
+      <wxString Value="C:\Users\Niek\Documents\Opdrachten\Assignment1_5\simple_char_parse.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
