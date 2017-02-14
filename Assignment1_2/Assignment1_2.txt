@@ -1,1 +1,1 @@
-./Debug/simple_checkchar.c.o   
+./Release/simple_checkchar.c.o   

@@ -2,11 +2,13 @@
 <CodeLite_Workspace Name="Opdrachten" Database="" Version="10.0.0">
   <Project Name="Assignment1_3_1" Path="Assignment1_3/Assignment1_3.project" Active="No"/>
   <Project Name="Assignment1_3_2" Path="Assignment1_3_2/Assignment1_3_2.project" Active="No"/>
-  <Project Name="Assignment1_2" Path="Assignment1_2/Assignment1_2.project" Active="Yes"/>
+  <Project Name="Assignment1_2" Path="Assignment1_2/Assignment1_2.project" Active="No"/>
   <Project Name="Assignment1_4" Path="Assignment1_4/Assignment1_4.project" Active="No"/>
-  <Project Name="Assignment1_5" Path="Assignment1_5/Assignment1_5.project" Active="No"/>
+  <Project Name="Assignment1_5" Path="Assignment1_5/Assignment1_5.project" Active="Yes"/>
+  <Project Name="Assignment1_1" Path="Assignment1_1/Assignment1_1.project" Active="No"/>
+  <Project Name="123" Path="123/123.project"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="yes">
+    <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
       <Project Name="Assignment1_1" ConfigName="Debug"/>
       <Project Name="Assignment1_2" ConfigName="Debug"/>
@@ -15,6 +17,8 @@
       <Project Name="Assignment1_2" ConfigName="Debug"/>
       <Project Name="Assignment1_4" ConfigName="Debug"/>
       <Project Name="Assignment1_5" ConfigName="Debug"/>
+      <Project Name="Assignment1_1" ConfigName="Debug"/>
+      <Project Name="123" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -25,6 +29,8 @@
       <Project Name="Assignment1_2" ConfigName="Release"/>
       <Project Name="Assignment1_4" ConfigName="Release"/>
       <Project Name="Assignment1_5" ConfigName="Release"/>
+      <Project Name="Assignment1_1" ConfigName="Release"/>
+      <Project Name="123" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

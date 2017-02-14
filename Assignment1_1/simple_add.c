@@ -14,10 +14,10 @@ int main(void)
     printf("Kies een getal: ");
 
     while(!scanf("%d", &x)) {
-	printf("Invoerfout \n");
-	while(getchar() != '\n')
-	    ;
-	printf("Kies een getal: ");
+		printf("Invoerfout \n");
+		while(getchar() != '\n')
+			;
+		printf("Kies een getal: ");
     }
     printf("Gekozen getal: %d \n", x);
 

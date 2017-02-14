@@ -19,7 +19,7 @@ int main(void){
 	if(x > 0){
 		if(input >= 0 && input <= 100){
 			for(int c = 1; c <= 10; c++){
-				printf("\t %d x %d = %d \n", c, input, (c*input));
+				printf("%-2d %-2c %-2d = %-2d \n", c, 'x', input, (c*input));
 			}
 		}
 		else{

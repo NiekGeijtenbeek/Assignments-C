@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Release
-ProjectName            :=Assignment1_3_2
+ProjectName            :=Assignment1_1
 ConfigurationName      :=Release
 WorkspacePath          :=C:/Users/Niek/Documents/Opdrachten
-ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment1_3_2
+ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment1_1
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=$(PreprocessorSwitch)NDEBUG
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment1_3_2.txt"
+ObjectsFileList        :="Assignment1_1.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/simple_starprint_while.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_add.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/simple_starprint_while.c$(ObjectSuffix): simple_starprint_while.c $(IntermediateDirectory)/simple_starprint_while.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_3_2/simple_starprint_while.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_starprint_while.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/simple_starprint_while.c$(DependSuffix): simple_starprint_while.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_starprint_while.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_starprint_while.c$(DependSuffix) -MM simple_starprint_while.c
+$(IntermediateDirectory)/simple_add.c$(ObjectSuffix): simple_add.c $(IntermediateDirectory)/simple_add.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_1/simple_add.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_add.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_add.c$(DependSuffix): simple_add.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_add.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_add.c$(DependSuffix) -MM simple_add.c
 
-$(IntermediateDirectory)/simple_starprint_while.c$(PreprocessSuffix): simple_starprint_while.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_starprint_while.c$(PreprocessSuffix) simple_starprint_while.c
+$(IntermediateDirectory)/simple_add.c$(PreprocessSuffix): simple_add.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_add.c$(PreprocessSuffix) simple_add.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

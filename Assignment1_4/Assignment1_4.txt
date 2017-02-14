@@ -1,1 +1,1 @@
-./Debug/simple_table_calc.c.o   
+./Release/simple_table_calc.c.o   
