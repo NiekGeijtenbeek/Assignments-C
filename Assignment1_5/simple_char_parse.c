@@ -34,21 +34,26 @@ int main(){
 	}
 	while(c == 1){		
 		i = getchar();
-		if(i >= '0' && i <= '9'){
+		if (i >= '0' && i <= '9') {
 			invoer = i - '0';
 			output = (output * 10) + invoer;
 		}
-		if(i == '-'){
+		else if (i == '-') {
 			printf("Error \n");
 			error = 1;
 			c++;
 		}
-		if(i == '\n' && isNegative == 0 && error != 1){
+		if (i == '\n' && isNegative == 0 && error != 1) {
 			printf("Ingevoerd getal: %d", output);
 			c++;
 		}
-		if(i == '\n' && isNegative == 1 && error != 1){
+		if (i == '\n' && isNegative == 1 && error != 1) {
 			printf("Ingevoerd getal: %d", (output * -1));
+			c++;
+		}
+		else {
+			printf("Error");
+			error = 1;
 			c++;
 		}
 	}

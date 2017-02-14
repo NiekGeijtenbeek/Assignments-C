@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_char_parse.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_5/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/simple_char_parse.c$(ObjectSuffix): simple_char_parse.c $(IntermediateDirectory)/simple_char_parse.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment1_5/simple_char_parse.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_char_parse.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_char_parse.c$(DependSuffix): simple_char_parse.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_char_parse.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_char_parse.c$(DependSuffix) -MM simple_char_parse.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/simple_char_parse.c$(PreprocessSuffix): simple_char_parse.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_char_parse.c$(PreprocessSuffix) simple_char_parse.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
