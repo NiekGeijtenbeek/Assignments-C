@@ -1,0 +1,9 @@
+[{
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -O2 -Wall -DNDEBUG -I. -I. -MG -MP -MT./Release/main.c.o -MF./Release/main.c.o.d -MM main.c",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\main.c"
+ }, {
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -c C:/Users/Niek/Documents/Opdrachten/Assignment2_5/main.c -O2 -Wall -DNDEBUG -o ./Release/main.c.o -I. -I.",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\main.c"
+ }]

@@ -1,0 +1,1 @@
+./Release/simple_string_reverse_ind.c.o   
