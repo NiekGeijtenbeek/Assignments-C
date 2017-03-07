@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=20/02/2017
+Date                   :=07/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_string_reverse_p.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_3_2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/simple_string_reverse_p.c$(ObjectSuffix): simple_string_reverse_p.c $(IntermediateDirectory)/simple_string_reverse_p.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_3_2/simple_string_reverse_p.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_string_reverse_p.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_string_reverse_p.c$(DependSuffix): simple_string_reverse_p.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_string_reverse_p.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_string_reverse_p.c$(DependSuffix) -MM simple_string_reverse_p.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/simple_string_reverse_p.c$(PreprocessSuffix): simple_string_reverse_p.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_string_reverse_p.c$(PreprocessSuffix) simple_string_reverse_p.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

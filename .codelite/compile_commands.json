@@ -1,9 +1,9 @@
 [{
-  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
-  "command": "C:/TDM-GCC-64/bin/gcc.exe -O2 -Wall -DNDEBUG -I. -I. -MG -MP -MT./Release/main.c.o -MF./Release/main.c.o.d -MM main.c",
-  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\main.c"
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_3_2",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -O2 -Wall -DNDEBUG -I. -I. -MG -MP -MT./Release/simple_string_reverse_p.c.o -MF./Release/simple_string_reverse_p.c.o.d -MM simple_string_reverse_p.c",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_3_2\\simple_string_reverse_p.c"
  }, {
-  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
-  "command": "C:/TDM-GCC-64/bin/gcc.exe -c C:/Users/Niek/Documents/Opdrachten/Assignment2_5/main.c -O2 -Wall -DNDEBUG -o ./Release/main.c.o -I. -I.",
-  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\main.c"
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_3_2",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -c C:/Users/Niek/Documents/Opdrachten/Assignment2_3_2/simple_string_reverse_p.c -O2 -Wall -DNDEBUG -o ./Release/simple_string_reverse_p.c.o -I. -I.",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_3_2\\simple_string_reverse_p.c"
  }]

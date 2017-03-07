@@ -9,9 +9,12 @@
   <Project Name="Assignment2_1" Path="Assignment2_1/Assignment2_1.project" Active="No"/>
   <Project Name="Assignment2_2" Path="Assignment2_2/Assignment2_2.project" Active="No"/>
   <Project Name="Assignment2_3_1" Path="Assignment2_3_1/Assignment2_3_1.project" Active="No"/>
-  <Project Name="Assignment2_3_2" Path="Assignment2_3_2/Assignment2_3_2.project" Active="No"/>
-  <Project Name="Assignment2_4" Path="Assignment2_4/Assignment2_4.project" Active="Yes"/>
+  <Project Name="Assignment2_3_2" Path="Assignment2_3_2/Assignment2_3_2.project" Active="Yes"/>
+  <Project Name="Assignment2_4" Path="Assignment2_4/Assignment2_4.project" Active="No"/>
   <Project Name="Assignment2_5" Path="Assignment2_5/Assignment2_5.project" Active="No"/>
+  <Project Name="Assignment3_1" Path="Assignment3_1/Assignment3_1.project" Active="No"/>
+  <Project Name="Assignment3_2" Path="Assignment3_2/Assignment3_2.project" Active="No"/>
+  <Project Name="Assignment3_3" Path="Assignment3_3/Assignment3_3.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
@@ -30,6 +33,9 @@
       <Project Name="Assignment2_3_2" ConfigName="Debug"/>
       <Project Name="Assignment2_4" ConfigName="Debug"/>
       <Project Name="Assignment2_5" ConfigName="Debug"/>
+      <Project Name="Assignment3_1" ConfigName="Debug"/>
+      <Project Name="Assignment3_2" ConfigName="Debug"/>
+      <Project Name="Assignment3_3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +54,9 @@
       <Project Name="Assignment2_3_2" ConfigName="Release"/>
       <Project Name="Assignment2_4" ConfigName="Release"/>
       <Project Name="Assignment2_5" ConfigName="Release"/>
+      <Project Name="Assignment3_1" ConfigName="Release"/>
+      <Project Name="Assignment3_2" ConfigName="Release"/>
+      <Project Name="Assignment3_3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

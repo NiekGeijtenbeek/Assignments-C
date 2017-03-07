@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=02/03/2017
+Date                   :=06/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/matrix_printer.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_5/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/matrix_printer.c$(ObjectSuffix): matrix_printer.c $(IntermediateDirectory)/matrix_printer.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_5/matrix_printer.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/matrix_printer.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/matrix_printer.c$(DependSuffix): matrix_printer.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/matrix_printer.c$(ObjectSuffix) -MF$(IntermediateDirectory)/matrix_printer.c$(DependSuffix) -MM matrix_printer.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/matrix_printer.c$(PreprocessSuffix): matrix_printer.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/matrix_printer.c$(PreprocessSuffix) matrix_printer.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

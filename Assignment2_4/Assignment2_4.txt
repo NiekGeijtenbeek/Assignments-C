@@ -1,1 +1,1 @@
-./Release/main.c.o   
+./Release/simple_new_struct.c.o   

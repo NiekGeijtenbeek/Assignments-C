@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=02/03/2017
+Date                   :=06/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_new_struct.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_4/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/simple_new_struct.c$(ObjectSuffix): simple_new_struct.c $(IntermediateDirectory)/simple_new_struct.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_4/simple_new_struct.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_new_struct.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_new_struct.c$(DependSuffix): simple_new_struct.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_new_struct.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_new_struct.c$(DependSuffix) -MM simple_new_struct.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/simple_new_struct.c$(PreprocessSuffix): simple_new_struct.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_new_struct.c$(PreprocessSuffix) simple_new_struct.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

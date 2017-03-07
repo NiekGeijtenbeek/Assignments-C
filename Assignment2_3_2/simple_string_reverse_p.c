@@ -8,24 +8,26 @@
  */
 
 int main(void) {
-	char s[80], *p;
-	int length, i;
+	char str[81], temp, *ptr, *ptr2;
+	int length;
+	int i;
 	
 	printf("Tik tekst in: \n");
-	fgets(s, 80, stdin);
+	fgets(str, 80, stdin);
 	
-	p = s;
-	length = strlen(s);
+	length = strlen(str) - 2;
+	i = length;
+	ptr = str;
 	
-	for (i = 0; i < length; i++) {
-		p++;
-	}
+
+/*	printf("%d", i);
+	printf("%c", ptr[0]);
+	printf("%c", ptr[length]);*/
 	
-	printf("In omgekeerde volgorde: ");
-	
-	for (i = length; i != -1; i--) {
-		printf("%c", *p);
-		p--;
-	}
-	
+	for (int c = 0; c != i; c++, i--) {
+		temp = ptr[c];
+		str[c] = ptr[i];
+		str[i] = temp;
+ 	}
+	printf("Omgekeerd: %s", str);
 }

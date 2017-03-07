@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    int a[10] = {0, 1, 0, 1, 1, 1, 0, 1, 0, 1};
+    int a[10] = {0, 1, 1, 1, 0, 1, 0, 1, 0, 1};
     int c = 0;
 	int c2 = 0;
 	
@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 	
-	printf("Aantal 2: %d \n", c);
+	printf("Aantal 0: %d \n", c);
 	printf("Aantal 1: %d \n", c2);
   
 	if (c2 == c) {

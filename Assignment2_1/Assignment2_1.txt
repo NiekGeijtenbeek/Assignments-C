@@ -1,1 +1,1 @@
-./Release/main.c.o   
+./Release/simple_passtrough.c.o   

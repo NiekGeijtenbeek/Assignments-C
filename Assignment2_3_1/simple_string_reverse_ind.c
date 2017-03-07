@@ -8,15 +8,21 @@
  */
 
 int main(void) {
-	char s[80];
+	char s[81];
+	char temp;
 	
 	printf("Tik tekst in: \n");
-	fgets(s, 80, stdin);
+	fgets(s, 81, stdin);
 	
-	int length = strlen(s);
+	int length = strlen(s) - 1;
 	
 	printf("In omgekeerde volgorde: ");
-	for (int i = length; i != -1; i--) {
-		printf("%c", s[i]);
+	
+	for (int i = 0; i < length; i++, length--) {
+		temp = s[i];
+		s[i] = s[length];
+		s[length] = temp;
 	}
+	
+	printf("%s", s);
 }
