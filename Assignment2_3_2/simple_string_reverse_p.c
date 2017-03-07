@@ -9,25 +9,17 @@
 
 int main(void) {
 	char str[81], temp, *ptr, *ptr2;
-	int length;
-	int i;
-	
-	printf("Tik tekst in: \n");
+
+	printf("Tik een tekst in: \n");
 	fgets(str, 80, stdin);
 	
-	length = strlen(str) - 2;
-	i = length;
 	ptr = str;
+	ptr2 = str + strlen(str) - 2;
 	
-
-/*	printf("%d", i);
-	printf("%c", ptr[0]);
-	printf("%c", ptr[length]);*/
-	
-	for (int c = 0; c != i; c++, i--) {
-		temp = ptr[c];
-		str[c] = ptr[i];
-		str[i] = temp;
- 	}
+	for (int c = 0; c < (strlen(str)/2); c++, ptr++, ptr2--) {
+		temp = *ptr;
+		*ptr = *ptr2;
+		*ptr2 = temp;
+	}
 	printf("Omgekeerd: %s", str);
 }
