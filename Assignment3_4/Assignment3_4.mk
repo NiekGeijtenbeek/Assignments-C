@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Release
-ProjectName            :=Assignment2_3_1
+ProjectName            :=Assignment3_4
 ConfigurationName      :=Release
 WorkspacePath          :=C:/Users/Niek/Documents/Opdrachten
-ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment2_3_1
+ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment3_4
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=07/03/2017
+Date                   :=11/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=$(PreprocessorSwitch)NDEBUG
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment2_3_1.txt"
+ObjectsFileList        :="Assignment3_4.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/simple_matrix_transpose.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix): simple_string_reverse_ind.c $(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_3_1/simple_string_reverse_ind.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix): simple_string_reverse_ind.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix) -MM simple_string_reverse_ind.c
+$(IntermediateDirectory)/simple_matrix_transpose.c$(ObjectSuffix): simple_matrix_transpose.c $(IntermediateDirectory)/simple_matrix_transpose.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment3_4/simple_matrix_transpose.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_matrix_transpose.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/simple_matrix_transpose.c$(DependSuffix): simple_matrix_transpose.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_matrix_transpose.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_matrix_transpose.c$(DependSuffix) -MM simple_matrix_transpose.c
 
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(PreprocessSuffix): simple_string_reverse_ind.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_string_reverse_ind.c$(PreprocessSuffix) simple_string_reverse_ind.c
+$(IntermediateDirectory)/simple_matrix_transpose.c$(PreprocessSuffix): simple_matrix_transpose.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_matrix_transpose.c$(PreprocessSuffix) simple_matrix_transpose.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

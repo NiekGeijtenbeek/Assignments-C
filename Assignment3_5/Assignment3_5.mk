@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Release
-ProjectName            :=Assignment2_3_1
+ProjectName            :=Assignment3_5
 ConfigurationName      :=Release
 WorkspacePath          :=C:/Users/Niek/Documents/Opdrachten
-ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment2_3_1
+ProjectPath            :=C:/Users/Niek/Documents/Opdrachten/Assignment3_5
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Niek
-Date                   :=07/03/2017
+Date                   :=13/03/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=$(PreprocessorSwitch)NDEBUG
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment2_3_1.txt"
+ObjectsFileList        :="Assignment3_5.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/bit_cycle_mani.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix): simple_string_reverse_ind.c $(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment2_3_1/simple_string_reverse_ind.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix): simple_string_reverse_ind.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/simple_string_reverse_ind.c$(ObjectSuffix) -MF$(IntermediateDirectory)/simple_string_reverse_ind.c$(DependSuffix) -MM simple_string_reverse_ind.c
+$(IntermediateDirectory)/bit_cycle_mani.c$(ObjectSuffix): bit_cycle_mani.c $(IntermediateDirectory)/bit_cycle_mani.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Niek/Documents/Opdrachten/Assignment3_5/bit_cycle_mani.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/bit_cycle_mani.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/bit_cycle_mani.c$(DependSuffix): bit_cycle_mani.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/bit_cycle_mani.c$(ObjectSuffix) -MF$(IntermediateDirectory)/bit_cycle_mani.c$(DependSuffix) -MM bit_cycle_mani.c
 
-$(IntermediateDirectory)/simple_string_reverse_ind.c$(PreprocessSuffix): simple_string_reverse_ind.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/simple_string_reverse_ind.c$(PreprocessSuffix) simple_string_reverse_ind.c
+$(IntermediateDirectory)/bit_cycle_mani.c$(PreprocessSuffix): bit_cycle_mani.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/bit_cycle_mani.c$(PreprocessSuffix) bit_cycle_mani.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

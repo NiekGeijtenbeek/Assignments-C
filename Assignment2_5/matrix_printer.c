@@ -15,15 +15,15 @@ int main(void)
                         {-1, -1, -1, -1, -1, -1, 0, -1, -1, 1}, {-1, -1, -1, -1, -1, 1, -1, -1, 1, -1},
                         {-1, -1, -1, -1, -1, -1, 0, -1, -1, 0}, {0, -1, -1, -1, -1, -1, -1, -1, -1, -1},
                         {-1, -1, 1, 1, -1, -1, -1, -1, -1, 1},  {0, -1, 1, -1, -1, -1, -1, -1, 0, -1}};
-    
-	for(int c = 0; c < 10; c++) {
+
+    for(int c = 0; c < 10; c++) {
 	for(int d = 0; d < 10; d++) {
 	    if(matrix[c][d] == -1) {
-		fputs("-", stdout);
+		fputs("-",stdout);
 	    } else if(matrix[c][d] == 0) {
-		fputs("0", stdout);
+		fputs("0",stdout);
 	    } else if(matrix[c][d] == 1) {
-		fputs("1", stdout);
+		fputs("1",stdout);
 	    }
 	}
 	puts("");

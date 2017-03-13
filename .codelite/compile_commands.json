@@ -1,9 +1,9 @@
 [{
-  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
-  "command": "C:/TDM-GCC-64/bin/gcc.exe -O2 -Wall -DNDEBUG -I. -I. -MG -MP -MT./Release/matrix_printer.c.o -MF./Release/matrix_printer.c.o.d -MM matrix_printer.c",
-  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\matrix_printer.c"
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment3_5",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -O2 -Wall -DNDEBUG -I. -I. -MG -MP -MT./Release/bit_cycle_mani.c.o -MF./Release/bit_cycle_mani.c.o.d -MM bit_cycle_mani.c",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment3_5\\bit_cycle_mani.c"
  }, {
-  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5",
-  "command": "C:/TDM-GCC-64/bin/gcc.exe -c C:/Users/Niek/Documents/Opdrachten/Assignment2_5/matrix_printer.c -O2 -Wall -DNDEBUG -o ./Release/matrix_printer.c.o -I. -I.",
-  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment2_5\\matrix_printer.c"
+  "directory": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment3_5",
+  "command": "C:/TDM-GCC-64/bin/gcc.exe -c C:/Users/Niek/Documents/Opdrachten/Assignment3_5/bit_cycle_mani.c -O2 -Wall -DNDEBUG -o ./Release/bit_cycle_mani.c.o -I. -I.",
+  "file": "C:\\Users\\Niek\\Documents\\Opdrachten\\Assignment3_5\\bit_cycle_mani.c"
  }]
