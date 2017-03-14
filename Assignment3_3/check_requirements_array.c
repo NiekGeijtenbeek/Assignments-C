@@ -13,7 +13,7 @@ bool valid_row(int[], int);
 int main(void)
 {
 
-    int array[] = {1, 0, 1, 0, 1, 0, 1, 0};
+    int array[] = {1, 1, 0, 0, 1, 0, 1, 0};
     int size = sizeof(array) / sizeof(array[0]);
 
     bool check = valid_row(array, size);

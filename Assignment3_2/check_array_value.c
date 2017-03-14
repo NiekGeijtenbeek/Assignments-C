@@ -35,18 +35,20 @@ bool equal_rows(int x[], int y[], int z) {
 	bool state;
 	
 	for (int c = 0; c != z; c++) {
-		checksum_a = checksum_a + x[c];
-		checksum_b = checksum_b + y[c];
+		if(x[c] != y[c]){
+			return false;
+		}
 	}
 	/*printf("%d \n", checksum_a);
 	printf("%d \n", checksum_b);
 	TEST VALUES CHECKT WAARDES VAN BEIDE CHECKSUMS
 	*/
 	
-	if (checksum_a == checksum_b) {
-		return true;
-	}
-	else {
-		return  false;
-	}
+//	if (checksum_a == checksum_b) {
+//		return true;
+//	}
+//	else {
+//		return  false;
+//	}
+return true;
 }

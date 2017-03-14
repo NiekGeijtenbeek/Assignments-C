@@ -1,1 +1,1 @@
-./Release/main.c.o   
+./Release/check_array_value.c.o   

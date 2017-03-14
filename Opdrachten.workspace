@@ -17,7 +17,7 @@
   <Project Name="Assignment3_3" Path="Assignment3_3/Assignment3_3.project" Active="No"/>
   <Project Name="Assignment3_4" Path="Assignment3_4/Assignment3_4.project" Active="No"/>
   <Project Name="Assignment3_5" Path="Assignment3_5/Assignment3_5.project" Active="Yes"/>
-  <Project Name="Assignment4_1" Path="Assignment4_1/Assignment4_1.project"/>
+  <Project Name="Assignment4_1" Path="Assignment4_1/Assignment4_1.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>

@@ -37,6 +37,7 @@ int main(void) {
 	scanf("%d", &cycle_amount);
 	
 	verschuif_cyclisch(&output_cycle, cycle_amount);
+	
 	printf("Nieuw getal: ");
 	bitprint(output_cycle);
 }
@@ -70,24 +71,30 @@ int get_bit(char ch, int n) {
 
 void verschuif_cyclisch(unsigned char* ch, int n)
 {
-    unsigned char first_bit = 0x80; // 1000 0000
-    unsigned char last_bit = 0x01;  // 0000 0001
+    unsigned char left_bit = 0x80; // 1000 0000
+    unsigned char right_bit = 0x01;  // 0000 0001
+	
 
     if(n >= 0) {
 	for(int c = 0; c < n; c++) {
-	    if(first_bit & *ch) {
-
+	    if(left_bit & *ch) {
+		
+		
 		*ch <<= 1;
 		*ch += 1;
+		
+		
 	    } else {
+		
 		*ch <<= 1;
+
 	    }
 	}
     } else {
 	for(int c = 0; c < -n; c++) {
-	    if(last_bit & *ch) {
+	    if(right_bit & *ch) {
 		*ch >>= 1;
-		*ch += 123;
+		*ch +=  128;
 	    } else {
 		*ch >>= 1;
 	    }
